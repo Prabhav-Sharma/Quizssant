@@ -1,37 +1,37 @@
 @import url("/style.css");
 
-header{
+header {
     color: var(--primary-color);
     justify-content: space-between;
 }
 
-header>a{
-    margin: var(--sp-0-5);
+header>a {
     font-size: 1.5rem;
     font-weight: 900;
+    margin: var(--sp-0-5);
 }
 
-main{
+main {
     justify-content: flex-start;
 }
 
-main>*{
+main>* {
     width: 50%;
 }
 
-.progress-wrapper{
+.progress-wrapper {
     justify-content: space-between;
-    gap:var(--sp-1);
+    gap: var(--sp-1);
 }
 
-.options-wrapper>li{
-padding: var(--sp-1-5);
-font-size: 1.25rem;
-margin:var(--sp-0-5);
-background-color: var(--question);
-color: var(--white);
+.options-wrapper>li {
+    background-color: var(--question);
+    color: var(--white);
+    font-size: 1.25rem;
+    margin: var(--sp-0-5);
+    padding: var(--sp-1-5);
 }
 
-.options-wrapper>li:hover{
+.options-wrapper>li:hover {
     background-color: var(--cadet);
 }
