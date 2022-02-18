@@ -25,6 +25,8 @@ header{
     justify-content: space-around;
     width: 100%;
     margin-top: var(--sp-0-25);
+    border-bottom: 1px solid var(--solid-gray);
+    padding-bottom: var(--sp-0-25);
 }
 
 .header-title{
@@ -84,7 +86,8 @@ footer{
     align-items: center;
     color: var(--white);
     background-color:var(--footer);
-    padding-top:var(--sp-0-5)
+    padding-top:var(--sp-0-5);
+    border-top: 1px solid var(--solid-gray);
 }
 
 @media only screen and (max-width:450px) {
