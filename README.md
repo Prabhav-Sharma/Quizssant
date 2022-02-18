@@ -1,2 +1,2 @@
-# What The Quiz
+# Quizssant
 A quiz web-app
