@@ -1,5 +1,9 @@
-# [Quizssant]:quizssant.netlify.app/
-A we-app that let's you take quizes based on your favorite TV Shows & Movies.
+# Quizssant
+[Quizssant]:quizssant.netlify.app/
+
+Pronounced like croissant.
+
+A web-app that let's you take quizes based on your favorite TV Shows & Movies.
 
 An MCQ based question system, where you choose an answer and if the answer is correct, you're awarded points that are added up in your final result for the quiz.
 
