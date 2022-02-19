@@ -5,6 +5,7 @@
     --bg-color: #313335;
     --footer: #084C61;
     --question: #454851;
+    --right: #4FBA52;
 }
 
 html {
@@ -22,6 +23,10 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+}
+
+a{
+    color: var(--gray);
 }
 
 header {
@@ -54,6 +59,10 @@ footer {
 @media only screen and (max-width:450px) {
     html {
         font-size: 75%;
+    }
+
+    main{
+        width: 100%;
     }
 }
 

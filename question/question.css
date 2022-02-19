@@ -19,6 +19,10 @@ main>* {
     width: 50%;
 }
 
+.center-text{
+    text-align: center;
+}
+
 .progress-wrapper {
     justify-content: space-between;
     gap: var(--sp-1);
@@ -38,10 +42,13 @@ main>* {
 }
 
 li.wrong{
-    background-color: var(--invalid-red);
+    background-color: var(--error-color);
 }
 
 li.right{
-    background-color: var(--valid-green);
-    color: var(--black);
+    background-color: var(--right);
+}
+
+.bottom-link{
+    color: var(--solid-gray);
 }
