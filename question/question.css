@@ -30,8 +30,18 @@ main>* {
     font-size: 1.25rem;
     margin: var(--sp-0-5);
     padding: var(--sp-1-5);
+    font-weight: 900;
 }
 
 .options-wrapper>li:hover {
     background-color: var(--cadet);
+}
+
+li.wrong{
+    background-color: var(--invalid-red);
+}
+
+li.right{
+    background-color: var(--valid-green);
+    color: var(--black);
 }
