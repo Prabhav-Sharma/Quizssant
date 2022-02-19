@@ -46,7 +46,7 @@ li.wrong{
 }
 
 li.right{
-    background-color: #4FBA52;
+    background-color: var(--right);
 }
 
 .bottom-link{
