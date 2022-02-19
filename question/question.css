@@ -1,0 +1,47 @@
+@import url("/style.css");
+
+header {
+    color: var(--primary-color);
+    justify-content: space-between;
+}
+
+header>a {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: var(--sp-0-5);
+}
+
+main {
+    justify-content: flex-start;
+}
+
+main>* {
+    width: 50%;
+}
+
+.progress-wrapper {
+    justify-content: space-between;
+    gap: var(--sp-1);
+}
+
+.options-wrapper>li {
+    background-color: var(--question);
+    color: var(--white);
+    font-size: 1.25rem;
+    margin: var(--sp-0-5);
+    padding: var(--sp-1-5);
+    font-weight: 900;
+}
+
+.options-wrapper>li:hover {
+    background-color: var(--cadet);
+}
+
+li.wrong{
+    background-color: var(--invalid-red);
+}
+
+li.right{
+    background-color: var(--valid-green);
+    color: var(--black);
+}
