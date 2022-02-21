@@ -1,0 +1,19 @@
+@import url(/question/question.css);
+
+
+li{
+    font-size: 1.5rem;
+    color: var(--gray);
+    text-align: left;
+}
+
+li:hover{
+color:var(--white);
+background-color: initial;
+cursor: initial;
+transform: translateX(0);
+}
+
+a>h2{
+    color: var(--primary-color);
+}
