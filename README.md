@@ -15,6 +15,8 @@ The user will also be able to view all the answers that are right and in which q
 
 ### [Score](https://quizssant.netlify.app/score/score.html)
 
+![image](https://user-images.githubusercontent.com/88072012/154960505-f6ac1cd0-091d-401e-9209-38129eedb72c.png)
+
 
 
 
